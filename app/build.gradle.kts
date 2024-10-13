@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
